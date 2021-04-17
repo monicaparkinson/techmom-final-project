@@ -1,6 +1,27 @@
-.aboutImage {
-  display:flex;
+
+.container {
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 12 repeat;
+  grid-template-areas: 
+  "header1 header1"
+  "picture1 picture2"
+  "picture3 picture4"
+  "picture5 picture 6"
+  "header2 header2"
+
+}
+.header1 {
+  grid-area: header1;
   justify-content: center;
+  
+}
+
+.aboutImage {
+  background-color: Desert Sand;
+  display:flex;
+  justify-content: space-around;
   align-items: center;
 }
   
@@ -18,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation-wrapper {
-    height: 300px;
+    height: 400px;
     background-color: #6B705C;
     color: #ffffff;
     display: flex;
@@ -34,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-.header-styles {
+.header-style {
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 1.5em;
     
@@ -43,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .center-column {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 42px;
+    grid-gap: 0px;
     width: 500px;
 }
 
@@ -104,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-   background-image: url(assets/lake.jpg);
+   background-image: url(assets/background-lake.jpeg);
    padding: 100px;
    height: 300px;
    background-attachment: fixed;
