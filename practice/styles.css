@@ -1,25 +1,5 @@
-
-.container {
-
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 12 repeat;
-  grid-template-areas: 
-  "header1 header1"
-  "picture1 picture2"
-  "picture3 picture4"
-  "picture5 picture 6"
-  "header2 header2"
-
-}
-.header1 {
-  grid-area: header1;
-  justify-content: center;
-  
-}
-
 .aboutImage {
-  background-color: Desert Sand;
+  background-color: #e2c7cc;
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -35,8 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
-}
+    font-family: 'Roboto Slab', serif;}
 
 .navigation-wrapper {
     height: 400px;
@@ -93,8 +72,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #ffffff;
     text-decoration: none;
-    transition: .5s;
-    
+    transition: .75s;
+    font-size: 30px;
 }
 
 .nav-link a:hover {
@@ -125,13 +104,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-   background-image: url(assets/background-lake.jpeg);
-   padding: 100px;
-   height: 300px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-image: url(assets/lake.jpeg);
+  padding: 100px;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top-heading {
